@@ -18,3 +18,9 @@ if(randomNumber1 == randomNumber2){
     document.querySelector("h1").textContent = "You lose!";
     document.querySelector(".computer").textContent = "Computer 🚩"
 }
+
+//start game
+document.getElementById('startGameButton').addEventListener('click', function() {
+    window.location.href = 'game.html';
+  });
+  
